@@ -132,7 +132,7 @@ horizontals.forEach((row, rowIndex) => {
         label: 'wall',
         isStatic: true,
         render: {
-          fillStyle: 'red'
+          fillStyle: '#e6ffff'
         }
       }
     );
@@ -155,7 +155,7 @@ verticals.forEach((row, rowIndex) => {
         label: 'wall',
         isStatic: true,
         render: {
-          fillStyle: 'red'
+          fillStyle: '#e6ffff'
         }
       }
     );
@@ -174,7 +174,7 @@ const goal = Bodies.rectangle(
     label: 'goal',
     isStatic: true,
     render: {
-      fillStyle: '#fcf2dc'
+      fillStyle: '#ff6666'
     }
   }
 );
