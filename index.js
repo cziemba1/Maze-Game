@@ -174,7 +174,7 @@ const goal = Bodies.rectangle(
     label: 'goal',
     isStatic: true,
     render: {
-      fillStyle: 'green'
+      fillStyle: '#fcf2dc'
     }
   }
 );
@@ -186,7 +186,7 @@ const ballRadius = Math.min(unitLengthX, unitLengthY) / 4;
 const ball = Bodies.circle(unitLengthX / 2, unitLengthY / 2, ballRadius, {
   label: 'ball',
   render: {
-    fillStyle: 'blue'
+    fillStyle: '#809fff'
   }
 });
 World.add(world, ball);
